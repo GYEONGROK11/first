@@ -9,7 +9,7 @@ public class Q1 {
         Scanner scan = new Scanner(System.in);
         num = scan.nextInt();
         int a, b, c, d;
-        int sum;
+        int sum = 0;
         for (int i = 1; i <= num; i++) {
             d = i % 10;
             i /= 10;
@@ -29,9 +29,9 @@ public class Q1 {
             sum +=b1;
             sum +=a1;
 
-            while (sum )
+            //while (sum )
 
-            }
+            //}
 
 
 
