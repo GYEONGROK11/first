@@ -25,7 +25,7 @@ public class Q1 {
             int a1 = a * a;
 
             sum +=d1;
-            sum +=c1;
+            sum +=c1;          
             sum +=b1;
             sum +=a1;
 
