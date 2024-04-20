@@ -35,9 +35,21 @@ class Q2_1 {
             answer[cnt++] = Character.getNumericValue(str.charAt(i));
 
         }
-        System.out.println(answer.toString());
+        for (int i: answer) {
+            System.out.print(i);
+        }
 
+        char[] str1 = String.valueOf(n).toCharArray();
+        Arrays.sort(str1);
 
+        System.out.println(str1);
+
+        String str2 = "hello";
+        String[] str3 = str2.split("");
+        Arrays.sort(str3, Collections.reverseOrder());
+        for (String string : str3) {
+            System.out.print(string);
+        }
 
     }
 }
